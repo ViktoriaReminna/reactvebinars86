@@ -13,7 +13,6 @@ export class App extends Component {
     return (
       <>
         <Header toggleModal={this.toggleModal} />
-        {/* <Counter /> */}
         <TodoList />
         {this.state.isShowModal && (
           <Modal toggleModal={this.toggleModal}>text for Modal</Modal>
